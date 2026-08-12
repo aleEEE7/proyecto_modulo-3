@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Turbo Wheels - Mi Cuenta</title>
+
+    <link rel="stylesheet" href="../css/styles.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+<body>
+
+<header class="header">
+
+    <div class="container">
+
+        <a href="../index.html" class="logo">
+            <img src="../assets/logo.png" alt="Turbo Wheels">
+        </a>
+
+        <form class="search-box">
+
+            <input
+                type="text"
+                placeholder="Buscar productos...">
+
+            <button type="submit">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+        </form>
+
+        <div class="header-icons">
+
+            <a href="../HTML/carrito.html" class="cart">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span>Carrito</span>
+            </a>
+
+        </div>
+
+    </div>
+
+</header>
+
+<nav class="navbar">
+
+    <div class="container">
+
+        <ul class="menu">
+
+            <li><a href="../index.html">Inicio</a></li>
+
+            <li><a href="pistas.html">Pistas y Sets</a></li>
+
+            <li><a href="accesorios.html">Accesorios</a></li>
+
+            <li><a href="coleccion.html">Colecciones</a></li>
+        </ul>
+
+    </div>
+
+</nav>
+
+<main>
+
+<section class="checkout">
+
+    <div class="container">
+
+        <h1 class="checkout-title">Mi Cuenta</h1>
+        <p class="checkout-subtitle">Inicia sesión o crea una cuenta para seguir tus pedidos</p>
+
+        <div class="checkout-grid">
+
+            <div class="checkout-card">
+
+                <h2><i class="fa-solid fa-right-to-bracket"></i> Iniciar Sesión</h2>
+
+                <form id="login-form" novalidate>
+
+                    <div class="form-group">
+                        <label for="login-correo">Correo electrónico</label>
+                        <input type="email" id="login-correo" placeholder="tucorreo@ejemplo.com" required>
+                        <span class="form-error" id="error-login-correo"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="login-clave">Contraseña</label>
+                        <input type="password" id="login-clave" placeholder="Tu contraseña" required>
+                        <span class="form-error" id="error-login-clave"></span>
+                    </div>
+
+                    <button type="submit" class="pay-btn">Entrar</button>
+
+                    <p class="checkout-secure">
+                        <i class="fa-solid fa-lock"></i>
+                        Tus datos están protegidos
+                    </p>
+
+                </form>
+
+            </div>
+
+            <div class="checkout-card">
+
+                <h2><i class="fa-solid fa-user-plus"></i> Crear Cuenta</h2>
+
+                <form id="registro-form" novalidate>
+
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <label for="registro-nombre">Nombre</label>
+                            <input type="text" id="registro-nombre" placeholder="Tu nombre" required>
+                            <span class="form-error" id="error-registro-nombre"></span>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="registro-apellido">Apellido</label>
+                            <input type="text" id="registro-apellido" placeholder="Tu apellido" required>
+                            <span class="form-error" id="error-registro-apellido"></span>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label for="registro-correo">Correo electrónico</label>
+                        <input type="email" id="registro-correo" placeholder="tucorreo@ejemplo.com" required>
+                        <span class="form-error" id="error-registro-correo"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="registro-clave">Contraseña</label>
+                        <input type="password" id="registro-clave" placeholder="Crea una contraseña" required>
+                        <span class="form-error" id="error-registro-clave"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="registro-clave2">Confirmar contraseña</label>
+                        <input type="password" id="registro-clave2" placeholder="Repite tu contraseña" required>
+                        <span class="form-error" id="error-registro-clave2"></span>
+                    </div>
+
+                    <button type="submit" class="pay-btn">Crear Cuenta</button>
+
+                </form>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+</main>
+
+<footer class="footer">
+
+    <div class="container">
+
+        <div class="footer-logo">
+
+            <img src="../assets/logo.png" alt="Turbo Wheels">
+
+            <p>
+                Turbo Wheels, la mejor tienda para coleccionistas
+                y amantes de la velocidad.
+            </p>
+
+        </div>
+
+        <div class="footer-links">
+
+            <h3>Enlaces</h3>
+
+            <ul>
+
+                <li><a href="../index.html">Inicio</a></li>
+
+                <li><a href="../HTML/pistas.html">Pistas y Sets</a></li>
+
+                <li><a href="../HTML/accesorios.html">Accesorios</a></li>
+
+                <li><a href="../HTML/coleccion.html">Colecciones</a></li>
+
+
+            </ul>
+
+        </div>
+
+        <div class="footer-contact">
+
+            <h3>Contacto</h3>
+
+            <p>📍 El Salvador</p>
+
+            <p>📞 +503 7000-0000</p>
+
+            <p>✉ info@turbowheels.com</p>
+
+            <a href="https://www.facebook.com/share/18v8eZd69X/" class="footer-facebook" target="_blank" rel="noopener">
+                <i class="fa-brands fa-facebook"></i>
+                <span>Síguenos en Facebook</span>
+            </a>
+
+            <a href="https://www.instagram.com/turbo_whels/?utm_source=ig_web_button_share_sheet" class="footer-instagram" target="_blank" rel="noopener">
+                <i class="fa-brands fa-instagram"></i>
+                <span>Síguenos en Instagram</span>
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="copyright">
+
+        <p>
+            © 2026 Turbo Wheels. Todos los derechos reservados.
+        </p>
+
+    </div>
+
+</footer>
+
+<script src="../js/cuenta.js"></script>
+<script src="../js/buscador.js"></script>
+
+</body>
+
+</html>
